@@ -1,0 +1,58 @@
+Starting Sufferage...
+Initialising...
+Starting CloudSim version 3.0
+Datacenter_0 is starting...
+Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 resource(s)
+0.0: Broker: Trying to Create VM #0 in Datacenter_0
+0.0: Broker: Trying to Create VM #1 in Datacenter_0
+0.0: Broker: Trying to Create VM #2 in Datacenter_0
+0.1: Broker: VM #0 has been created in Datacenter #2, Host #0
+0.1: Broker: VM #1 has been created in Datacenter #2, Host #1
+0.1: Broker: VM #2 has been created in Datacenter #2, Host #2
+0.1: Broker: Sending cloudlet 0 to VM #0
+0.1: Broker: Sending cloudlet 1 to VM #1
+0.1: Broker: Sending cloudlet 2 to VM #2
+0.1: Broker: Sending cloudlet 3 to VM #0
+0.1: Broker: Sending cloudlet 4 to VM #1
+0.1: Broker: Sending cloudlet 5 to VM #2
+0.1: Broker: Sending cloudlet 6 to VM #0
+0.1: Broker: Sending cloudlet 7 to VM #1
+0.1: Broker: Sending cloudlet 8 to VM #2
+0.1: Broker: Sending cloudlet 9 to VM #0
+52.6: Broker: Cloudlet 2 received
+60.1: Broker: Cloudlet 0 received
+70.1: Broker: Cloudlet 1 received
+90.1: Broker: Cloudlet 5 received
+103.43333333333332: Broker: Cloudlet 4 received
+153.43333333333334: Broker: Cloudlet 7 received
+166.76666666666668: Broker: Cloudlet 3 received
+190.0991666666667: Broker: Cloudlet 8 received
+200.0991666666667: Broker: Cloudlet 6 received
+366.7658333333334: Broker: Cloudlet 9 received
+366.7658333333334: Broker: All Cloudlets executed. Finishing...
+366.7658333333334: Broker: Destroying VM #0
+366.7658333333334: Broker: Destroying VM #1
+366.7658333333334: Broker: Destroying VM #2
+Broker is shutting down...
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_0 is shutting down...
+Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    2        SUCCESS        2            2        52.5        0.1        52.6
+    0        SUCCESS        2            0        60        0.1        60.1
+    1        SUCCESS        2            1        70        0.1        70.1
+    5        SUCCESS        2            2        37.5        52.6        90.1
+    4        SUCCESS        2            1        33.33        70.1        103.43
+    7        SUCCESS        2            1        50        103.43        153.43
+    3        SUCCESS        2            0        106.67        60.1        166.77
+    8        SUCCESS        2            2        100        90.1        190.1
+    6        SUCCESS        2            0        33.33        166.77        200.1
+    9        SUCCESS        2            0        166.67        200.1        366.77
+Sufferage finished!
